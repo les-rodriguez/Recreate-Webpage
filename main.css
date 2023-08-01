@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    font-family: 'Oswald';
+    margin: 0;
+}
+li {
+
+    list-style-type: none;
+    display: inline;
+    margin-left: 5px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+    border-bottom: 2px solid white;
+    margin: 50px 120px 0;
+}
+h2 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+p {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+#title {
+    background-color: beige;
+    background-image: url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    color: white;
+    height: 610px;
+    width: 1262px;
+}
+#left {
+    font-weight: bold;
+    font-size: 20px;
+}
+#right {
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-right: -450px;
+    display: flex;
+    align-items: center;
+}
+#heading {
+    padding: 120px 300px 150px;
+    margin: 0 20px;
+    text-align: center;
+}
+#heading p {
+    font-size: 40px;
+    padding: 0;
+    margin-top: 5px;
+}
+#first {
+    background-color: black;
+}
+#opposite {
+    background-color: #28282b;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#third {
+    background-color: #343434;
+}
+.top {
+    border-bottom: 2px solid white;
+    margin: 0;
+    line-height: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.pics {
+    height: 350px;
+    width: 400px;
+}
+.content {
+    margin: 0 60px;
+}
